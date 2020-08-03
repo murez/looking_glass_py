@@ -19,6 +19,6 @@ Get a Calibration class of the Looking Glass from the usb port
 ```
 import lg_cal
 c = lg_cal.lg_json()
-```python
+```
 
 > notice: please insure that you have the right to the usb permession and install all the required python modules correctly.
