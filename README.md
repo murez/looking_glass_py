@@ -1,2 +1,10 @@
 # looking_glass_py
-a_looking_glass_python_lib
+a Looking Glass Python Lib
+
+## get_cal.py
+Get a Calibration class of the Looking Glass from the usb port
+    :param usb_vid: Looking Glass USB port VID, look up by 'sudo lsusb | grep Microchip'
+    :param usb_pid: Looking Glass USB port PID, look up by 'sudo lsusb | grep Microchip'
+    :param save_flag: whether to save the json
+    :param json_name: save json name
+    :return: a Calibration class of the Looking Glass
